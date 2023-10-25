@@ -1,0 +1,89 @@
+
+    main{
+    background-color: #eee;
+    font-family:"Segoe UI";
+    padding:10px;
+    }
+
+    .encabezado{
+    text-align:center;
+    }
+    
+    #title{
+        font-size:40px;
+    }
+    
+    .imagen{
+        background-color: white;
+        height:680px auto;
+        margin: auto 20px;
+        text-align:center;
+        padding:10px;
+    }
+    
+    #img-caption{
+        margin:15px 0 5px 0;
+    }
+    
+    #image{
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 20px auto;
+    }
+    
+    #tribute-info{
+        text-align:center; 
+        flex-wrap:wrap;
+        display:flex;
+        justify-content: center;
+    }
+    
+    li{
+        margin:20px auto;
+    
+    }
+    @media (min-width: 800px){
+        .lista{
+            margin:40px auto;
+            flex-wrap:wrap;
+            display:flex;
+            justify-content: center;
+            min-width:500px;
+            width:500px;
+        }
+        .extra-info{
+            font-style:italic;
+            width:500px;
+            margin:40px auto;
+            text-align:left;
+        }
+    }
+    
+    
+    .lista{
+        margin:40px auto;
+        flex-wrap:wrap;
+        display:flex;
+    }
+
+    .extra-info{
+        font-style:italic;
+        margin:40px auto;
+        text-align:left;
+    }
+    
+    .more-info{
+        text-align:center;
+        font-weight:700;
+        font-size:20px;
+        
+    }
+    
+    .wikipedia{  
+        color:#477ca7;
+    }
+    
+    .wikipedia:visited{
+        color:purple;
+    }
