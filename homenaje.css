@@ -1,6 +1,6 @@
 
     main{
-    background-color: #eee;
+    background-color: #e1d5d9;
     font-family:"Segoe UI";
     padding:10px;
     }
@@ -14,7 +14,7 @@
     }
     
     .imagen{
-        background-color: white;
+        background-color: rgb(255,255,255,0.5);
         height:680px auto;
         margin: auto 20px;
         text-align:center;
